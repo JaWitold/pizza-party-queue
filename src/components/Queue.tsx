@@ -45,7 +45,7 @@ export function Queue() {
         prevLength.current = queue.length;
     }, [queue]);
 
-    return <Card className="col-span-full md:col-span-1 row-span-10 p-4">
+    return <Card className="col-span-full md:col-span-1 row-span-9 p-4">
         <CardHeader className="py-10">
             <CardTitle className="text-4xl font-bold">Current Queue</CardTitle>
             <CardDescription className="block py-3 md:hidden">Scan QR code on TV to join the queue</CardDescription>
